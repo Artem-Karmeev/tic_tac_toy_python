@@ -35,15 +35,15 @@ def rand_or_human() -> bool:
         else:
             print('Введите только Y или N ')
         
-def input_method() -> bool:
-    res = True
-    while True:
-        res_str = input('Вы будете ходить на цифровом блоке клавиатуры? (Y/N): ').lower().replace(' ', '')
-        if res_str == 'y' or res_str == 'n':
-            if res_str == 'y':
-                return res
-            else:
-                res = False
-                return res
-        else:
-            print('Введите только Y или N ')
+# def input_method() -> bool:
+#     res = True
+#     while True:
+#         res_str = input('Вы будете ходить на цифровом блоке клавиатуры? (Y/N): ').lower().replace(' ', '')
+#         if res_str == 'y' or res_str == 'n':
+#             if res_str == 'y':
+#                 return res
+#             else:
+#                 res = False
+#                 return res
+#         else:
+#             print('Введите только Y или N ') 
